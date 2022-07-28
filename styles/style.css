@@ -1,13 +1,29 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+.primary-bg-color{
+    background-color: #289BDE !important;
+}
+.primary-btn-color{
+    background-color: #289BDE !important;
+}
+.primary-btn-color:hover{
+    background-color: #2f90c8 !important;
+    border: 1px solid #289BDE !important;
+}
+.primary-text-color{
+    color: #289BDE !important;
+}
 .slider-img {
     min-height: 60vh;
     object-fit: cover;
     object-position: center;
 }
-
 .carousel-container {
     position: relative;
 }
-
 .carousel-content {
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
@@ -19,8 +35,30 @@
     top: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 768px) {
     .slider-text{
         width: 70% !important;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .trusted-company{
+        display: none !important;
     }
 }
