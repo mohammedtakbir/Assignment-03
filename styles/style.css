@@ -17,6 +17,14 @@ body::before{
 .primary-text-color{
     color: #289BDE !important;
 }
+
+/* ? for navbar register */
+.navbar-reg-btn{
+    border: 1px solid #fff;
+}
+.navbar-reg-btn:hover{
+    border: 1px solid #fff !important;
+}
 /* ? For Slider */
 .slider-img {
     min-height: 60vh;
