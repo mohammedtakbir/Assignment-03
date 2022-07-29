@@ -58,6 +58,21 @@ footer i:hover{
     }
 }
 
+@media screen and (max-width: 991px) {
+    body::before{
+        height: 50px;
+    }
+    .navbar-item a{
+        font-size: 1rem !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    body::before{
+        height: 40px;
+    }
+}
+
+
 @media screen and (min-width: 768px) {
     .slider-text{
         width: 70% !important;
