@@ -7,6 +7,9 @@ body::before{
 .primary-bg-color{
     background-color: #289BDE !important;
 }
+.primary-bg-transparent{
+    background-color: #289bde30 !important;
+}
 .primary-btn-color{
     background-color: #289BDE !important;
 }
